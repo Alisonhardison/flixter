@@ -49,9 +49,50 @@
 
     <div id="footer">
       <div class="container">
-          <b>Teachers</b>
-          <br />
-          <%= link_to 'Teach a Course', new_instructor_course_path %>
+        <div class="row">
+          <div class="col-12 col-sm-3">
+            <b>Teachers</b>
+            <br />
+            <%= link_to 'Teach a Course', new_instructor_course_path %>
+            <br />
+            <%= link_to 'My Dashboard', dashboard_path %>
+          </div>
+          <div class="col-12 col-sm-3">
+            <b>About</b>
+            <br />
+            <%= link_to 'Team', '#' %>
+            <br />
+            <%= link_to 'Careers', '#' %>
+            <br />
+            <%= link_to 'Privacy Policy', '#' %>
+          </div>
+          <div class="col-12 col-sm-3">
+            <b>Contact</b>
+            <br />
+            appletini19@gmail.com
+            <br />
+            One Kendall Square
+            <br />
+            Cambridge MA, 02113
+          </div>
+          <div class="col-12 col-sm-3 social">
+            <b>Social</b>
+            <br />
+            <br />
+            <%= link_to 'http://github.com/Alisonhardison' do %>
+              <span class="fa fa-github-square fa-2x social-button"></span>
+            <% end %>
+            <%= link_to 'https://twitter.com/AlisonDianePat2' do %>
+              <span class="fa fa-twitter-square fa-2x social-button"></span>
+            <% end %>
+            <%= link_to 'https://app.slack.com/client/TGA54JV2P/DLN2NKL92/user_profile/ULQC7Q9F1' do %>
+              <span class="fa fa-slack fa-2x social-button"></span>
+            <% end %>
+            <%= link_to 'http://linkedin.com/in/alison-hardison-patton' do %>
+              <span class="fa fa-linkedin fa-2x social-button"></span>
+            <% end %>
+          </div>
+        </div>
       </div>
     </div>
 
